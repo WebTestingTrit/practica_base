@@ -1,29 +1,33 @@
-# quark
-Fundamental project template
+# Práctica de introducción al testing
 
-Clone or fork to use like a template for creating yours.
+## Definición
 
-## Tools
+Implementar una pila Last-In-First-Out (LIFO) en JavaScript
 
-### GitHub Issues
+Crear un estructura que permita agregar elementos. Al recuperar los elementos devolverá el último agregado. Al devolverlo lo eliminrá de la pila.
 
-- Using Github issues for tracking User Stories and Epics.
-- Each issue may be labeled with an Epic, a [MoSCoW priority](https://en.wikipedia.org/wiki/MoSCoW_method) and a basic category.
+### Requerimientos
 
-#### Labels
+Se añadirán uno a uno con el método `push(item)`
 
-Scripts to get, update or delete labels on GitHub. Intended to be executed directly from de browser console.
+Se recuperarán uno a uno con el método `pop()`
 
-- Navigate to https://github.com/USER/REPOSITORY/labels
-- Feel free to use `get-labels` from any other project prior to update.
-- Otherwise you will get [this default labels](https://github.com/AtomicBuilders/quark/labels)
-- Execute `delete-labels` and `update-labels`
+#### Recomendaciones
 
+Realizar el ejercicio creando antes el código y después el test.
 
-### Commits ad release
+Repetir el ejercicio, escribiendo primero el código.
 
-- Using [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
+Documentarlo siguiendo la técnica BDD
 
-### Code style with Prettier
+### Commits y deploy
 
--  Recommended [extension](https://github.com/prettier/prettier-vscode) for VSCode
+- Se recomienda usar convenio de nombrado durante los commits.
+
+- Documentación [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
+
+- Para subir los cambios usar el script `npm run deploy` Se encarga de hacer el push y crear un changeLog con lo hecho.
+
+### Code style y Prettier
+
+-  Recomendado [extension](https://github.com/prettier/prettier-vscode) for VSCode
