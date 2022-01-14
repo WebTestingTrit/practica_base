@@ -1,21 +1,13 @@
 {
-  "name": "quark",
-  "version": "1.1.2",
+  "name": "web-testing-lab-1",
+  "version": "1.0.0",
   "description": "Fundamental project template",
   "author": {
     "name": "Alberto Basalo",
-    "email": "albertobasalo@agorabinaria.com",
+    "email": "albertobasalo@hotmail.com",
     "url": "https://twitter.com/albertobasalo"
   },
-  "homepage": "https://github.com/AtomicBuilders/quark#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AtomicBuilders/quark.git"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AtomicBuilders/quark/issues"
-  },
   "scripts": {
     "deploy": "standard-version && git push --follow-tags origin master",
     "updates": "ncu -u"

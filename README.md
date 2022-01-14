@@ -30,4 +30,4 @@ Documentarlo siguiendo la técnica BDD
 
 ### Code style y Prettier
 
--  Recomendado [extension](https://github.com/prettier/prettier-vscode) for VSCode
+-  [Recomended extension](https://github.com/prettier/prettier-vscode) for VSCode
