@@ -14,18 +14,22 @@ Se recuperarán uno a uno con el método `pop()`
 
 #### Recomendaciones
 
-Realizar el ejercicio creando antes el código y después el test.
+- Realizar el ejercicio creando antes el código y después el test.
 
-Documentarlo siguiendo la técnica BDD
+- Documentarlo siguiendo la técnica BDD
 
-### Commits y deploy
+- Code style y con EsLint y Prettier
 
-- Se recomienda usar convenio de nombrado durante los commits.
-
-- Documentación [standard-version](https://www.npmjs.com/package/standard-version) to produce a changelog file from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
+- Se recomienda usar [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 - Para subir los cambios usar el script `npm run deploy` Se encarga de hacer el push y crear un changeLog con lo hecho.
 
-### Code style y Prettier
+---
 
-- [Recommended extension](https://github.com/prettier/prettier-vscode) for VSCode
+<footer>
+  <h3>Creado por Alberto Basalo</h3>
+  <p align="">
+   <a href="https://twitter.com/albertobasalo" target="blank"><img src="https://img.shields.io/twitter/follow/albertobasalo?logo=twitter&style=for-the-badge" alt="albertobasalo" /></a>
+  </p>
+     <a href="https://github.com/albertobasalo" target="blank"><img src="https://img.shields.io/github/followers/albertobasalo?logo=github&label=profile albertobasalo&style=for-the-badge" alt="albertobasalo" /></a>
+</footer>

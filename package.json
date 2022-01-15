@@ -1,7 +1,7 @@
 {
   "name": "web-testing-lab-1",
   "version": "1.0.0",
-  "description": "Fundamental project template",
+  "description": "Práctica de introducción al testing",
   "author": {
     "name": "Alberto Basalo",
     "email": "albertobasalo@hotmail.com",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "deploy": "standard-version && git push --follow-tags origin master",
+    "deploy": "standard-version && git push --follow-tags origin main",
     "updates": "ncu -u"
   },
   "devDependencies": {
